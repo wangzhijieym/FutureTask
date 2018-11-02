@@ -8,7 +8,7 @@ public class Dead implements Runnable {
     public void run(){
         while (true){
             if(flag){
-                //aa
+                //aadd
                 synchronized (Lock.loke1){
                     System.out.println("1 lock1");
                     synchronized (Lock.loke2){
